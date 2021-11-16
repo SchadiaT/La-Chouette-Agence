@@ -276,14 +276,11 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    display: flex;
+    justify-content: center;
 }
-
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
+.col-sm-3 {
+    padding-right: 30px;
 }
 
 #bloc-1-hero h1 {
@@ -377,10 +374,7 @@ a:hover {
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
+    
     .nav-center {
         text-align: center;
     }
@@ -676,7 +670,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -685,7 +679,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -704,7 +698,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -778,7 +772,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FBFBFB !important;
+    color: #F3976C !important;
 }
 
 .btn-atomic-tangerine {
@@ -916,10 +910,7 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
+
     .site-navigation {
         position: inherit;
         transform: none;
