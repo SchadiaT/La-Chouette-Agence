@@ -713,6 +713,10 @@ h3 {
     color: #333333!important;
 }
 
+.text-center {
+    color: #1d1c1c;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
